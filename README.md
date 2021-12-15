@@ -2,6 +2,10 @@
 
 Back End code for Rent an NFT in mentioned in available on <> Code
 
+1.0 to 1.2 Keeper Contract Iterations
+2.0 to 2.3 Rental-NFT Iterations
+
+
 # Introduction
 
 The Motion Rental project is an exploration of what is possible on web3 for video content on the blockchain. We are researchers, designers, doers, building on current innovation that gives content creators ownership of their video related content while allowing users to partake in the use of the content for a duration of time or by subscription.
