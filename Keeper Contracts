@@ -1,1 +1,26 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.6;
+
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+
+interface KeeperCompatibleInterface {
+    function checkUpkeep(bytes calldata checkData) external returns (bool upkeepNeeded, bytes memory performData);
+    function performUpkeep(bytes calldata performData) external;
+}
+
+uint256 public functionToCall = 0;
+
+function checkUpkeep(
+        bytes calldata checkData
+    ) external view override returns (
+        bool upkeepNeeded, bytes memory performData
+    ) {
+        function balance() public view returns (uint256) {
+        return address(this).balance;
+        
+        if.balance <00000000000000.1
+  }
+}
+        }
+
 
