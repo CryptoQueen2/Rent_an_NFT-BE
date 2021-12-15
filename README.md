@@ -10,7 +10,7 @@ Back End code for Rent an NFT in mentioned in available on <> Code
 
 https://app.usebubbles.com/69xBMZztEfGdATXF2nDLqE/16-december-2021-comments-with-bubbles
 
-Code legend:
+**Code legend:**
 
 1.0 - 1.2 Keeper Contract iterations (Unsuccessful)
 
