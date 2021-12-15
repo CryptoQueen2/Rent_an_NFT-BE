@@ -45,6 +45,12 @@ Key activities and milestones:
 - Conduct code audit
 - Conduct system testing
 
+## Workflow explainer
+
+https://www.loom.com/share/eeb7a918d9f1464b8d4b06e2800e93ba
+
+
+
 # Follow-up Tasks
 
 What needs to be done next for this proposal? 
