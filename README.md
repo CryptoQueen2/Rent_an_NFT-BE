@@ -49,7 +49,11 @@ Key activities and milestones:
 
 https://www.loom.com/share/eeb7a918d9f1464b8d4b06e2800e93ba
 
+The architecture is exemplified mainly by the key useage of the following technologies
 
+- Arcana for privacy based file-storage
+- Superfluid for the payment stack
+- Chainlink keepers to deny access to NFT based video content based on Nil Wallet balance
 
 # Follow-up Tasks
 
