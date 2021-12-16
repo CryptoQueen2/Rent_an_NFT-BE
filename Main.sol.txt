@@ -58,12 +58,15 @@ contract GymMarketpalce is ReentrancyGuard , Ownable , ERC721Holder , KeeperComp
       interval = updateInterval;
        }
 
-    function checkUpkeep(bytes calldata  checkData ) external override returns (bool upkeepNeeded, bytes memory /* performData */) {
-        upkeepNeeded = (block.timestamp - interval ) <= 0 ;
+   function checkBalance() public view returns(bool){
+        return address(this).balance >= 0;
+    } 
+    function checkUpkeep(bytes calldata /** checkData **/ ) external view override returns (bool upkeepNeeded, bytes memory performData) {
+        upkeepNeeded = checkBalance();
     }
 
-    function performUpkeep(bytes calldata  performData ) external override {
-        _isValid[msg.sender] = true  ; 
+    function performUpkeep(bytes calldata) external override {
+        require(checkBalance(), "Balance not 0");
     }
 
   
