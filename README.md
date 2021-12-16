@@ -78,3 +78,10 @@ What needs to be done next for this proposal?
 - [ ]  Research methods to find a workaround to the file share limitation to expand beyond 150 people per video
 - [ ]  Continue product improvement and testing
 - [ ]  Embed design into a wellness and fitness application
+
+### Thanks to feedback from
+
+- Superfluid team
+- Chainlink team & Patrick
+
+
